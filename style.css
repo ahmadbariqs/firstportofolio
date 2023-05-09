@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --main-color: #EDFF00;
+    --second-color: #000000;
+    --third-color: #fff;
+}
+
+header{
+    background: var(--second-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: bolder;
+    color: var(--main-color);
+}
+
+header .navbar a{
+    margin: 25px;
+    font-size: 18px;
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+header .navbar a:hover{
+    text-decoration: underline;
+}
+
+.home{
+    text-align: center;
+    background: var(--second-color);
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0px 0px 5px var(--main-color);
+    background: transparent;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.card-header {
+   padding: 10px;
+   text-align: center;
+   border-radius: 5px;
+}
+
+.card-header h1{
+    padding: 15px ;
+    color: var(--main-color);
+}
+
+.card-body {
+    padding: 10px;
+  }
+  
+.card-body ul {
+    padding: 10px;
+}
+  
+.card-body li {
+    margin-bottom: 15px;
+}
+
+.card-body p{
+    padding-top: 10px;
+    padding-bottom: 18px;
+    text-transform: lowercase;
+    font-size: 12px;
+    color: var(--main-color);
+}
+
+.card-body li a{
+    color: var(--main-color);
+    font-size: 22px;
+}
+
+.card-body .social{
+    padding-bottom: 10px;
+}
+
+.social a{
+    color: var(--main-color);
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    padding-top: 10px;
+}
+
+.card2{
+    width: 800px;
+    margin: 20px;
+    box-shadow: 0px 0px 5px var(--main-color);
+    background: transparent;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cards {
+    padding: 20px;
+    text-align: left;
+    border-radius: 5px;
+    color: var(--main-color);
+ }
+
+ .cards h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    padding: 20px;
+ }
+
+ .cards h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 20px;
+    font-weight: normal;
+ }
+
+ .cards a{
+    color: var(--main-color);
+ }
+
+.experience{
+    background: var(--second-color);
+    height: 450px;
+    padding: 55px;
+    width: 100%;
+}
+
+.containers{
+    box-shadow: 0px 0px 5px var(--main-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.experience li{
+    padding: 20px;
+    font-size: 45px;
+    color: var(--main-color);
+}
+
+.experience h2{
+    color: var(--main-color);
+    font-size: 50px;
+    padding: 10px;
+}
+
+.experience i{
+    padding: 15px;
+}
+
+.contents{
+    padding-left: 80px;
+}
+
+P{
+    color: var(--main-color);
+}
+
+.edu{
+    background: var(--second-color);
+    height: 650px;
+    padding: 55px;
+    width: 100%;
+}
+
+.edu li{
+    padding: 20px;
+    font-size: 45px;
+    color: var(--main-color);
+}
+
+.edu h2{
+    color: var(--main-color);
+    font-size: 50px;
+    padding: 10px;
+}
+
+.edu i{
+    padding: 15px;
+}
+
+.about{
+    background: var(--second-color);
+    height: fit-content;
+    padding: 55px;
+    width: 100%;
+}
+
+.container-s{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+.card3{
+    width: 550px;
+    padding: 25px;
+    box-shadow: 0px 0px 5px var(--main-color);
+    background: transparent;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about h2{
+    color: var(--main-color);
+    font-size: 50px;
+    padding: 10px;
+}
+
+.about i{
+    padding: 15px;
+}
+
+.about li{
+    padding: 2px;
+    font-size: 35px;
+    color: var(--main-color);
+}
+
+.about .credit {
+    text-align: center;
+    color: #000000;
+    font-size: 22px;
+    padding: 2rem 1rem;
+    margin-top: 2.5rem;
+    background-color: #EDFF00;
+  }
+  
+  .about .credit span {
+    color: #000;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+
